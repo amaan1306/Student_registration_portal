@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif; /* Changed font family to Raleway */
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Keeping centered alignment */
+    height: 100%;
+    padding: 10px; /* Increased padding */
+    opacity: 90%;
+    background-color: aliceblue;
+}
+
+.login, .registration {
+    border: 2px solid grey; /* Changed border color to a vibrant red */
+    border-radius: 30px; /* Increased border radius */
+    margin: 20px;
+    padding: 30px;
+    width: 400px; /* Increased width */
+    max-width: 90%;
+    background-color: gainsboro; /* Adjusted background color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adjusted box shadow */
+}
+
+.login-form, .registration-form {
+    margin-top: 30px;
+}
+
+.registrationForm {
+    font-size: 18px; /* Increased font size */
+    color: #175500; /* Changed text color to match border color */
+    text-decoration: none; /* Removed underline */
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+
+.content {
+    border: 2px solid #175500; /* Changed border color to match other elements */
+    border-radius: 50px;
+    background-color: rgba(162, 219, 228, 0.95);
+    padding: 20px;
+    width: 100%;
+    max-width: 1400px; /* Increased max-width */
+    margin-top: 30px;
+}
+
+#editBtn, #deleteBtn {
+    font-size: 20px; /* Increased font size */
+    width: 60px; /* Increased width */
+    background-color: #00022c; /* Changed background color to match other elements */
+    color: #fff; /* Changed text color */
+    border: royalblue;
+    border-radius: 10px; /* Increased border radius */
+    cursor: pointer;
+    margin-right: 20px; /* Increased margin right */
+}
